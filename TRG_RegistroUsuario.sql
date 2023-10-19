@@ -1,7 +1,7 @@
 use dbs_prestamos_deportivos
 go
 -- =============================================
--- Author:		<Author,Paola Mosquera>
+-- Author:		<Author,Brayan Madrid>
 -- Create date: <Create Date, 12 de octubre del 2023>
 -- Description:	<Description,Registro Usuario>
 -- =============================================
