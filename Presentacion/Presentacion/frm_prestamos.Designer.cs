@@ -209,6 +209,7 @@
             this.btn_cancelar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.btn_cancelar.UseAccentColor = false;
             this.btn_cancelar.UseVisualStyleBackColor = true;
+            this.btn_cancelar.Click += new System.EventHandler(this.btn_cancelar_Click);
             // 
             // txt_observaciones
             // 
@@ -287,7 +288,7 @@
             this.Controls.Add(this.txt_nombre);
             this.Controls.Add(this.txt_id);
             this.Name = "frm_prestamos";
-            this.Text = "frm_prestamos";
+            this.Text = "Prestamos";
             ((System.ComponentModel.ISupportInitialize)(this.dtg_prestamo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
