@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Presentacion
 {
-    public partial class frm_ModuloUsuarios : Form
+    public partial class frm_prestamos : Form
     {
-        public frm_ModuloUsuarios()
+        public frm_prestamos()
         {
             InitializeComponent();
-        }
-
-        private void txt_s_nombre_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txt_p_nombre_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
