@@ -9,7 +9,7 @@ namespace Negocio
 {
     public class cls_conexion
     {
-        public SqlConnection connection = new SqlConnection("Data Source=DESKTOP-AEE6ANE\\SQLEXPRESS;Initial Catalog=dbs_roles;Integrated Security=True");
+        public SqlConnection connection = new SqlConnection("Data Source=ERO-SENNIN\\SQLEXPRESS;Initial Catalog=dbs_prestamos_deportivos;Integrated Security=True");
     }
 }
 }
