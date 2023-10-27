@@ -13,3 +13,5 @@ C:\Users\bymad\Documents\GitHub\App_prestamos_deportivos\Presentacion\Presentaci
 C:\Users\bymad\Documents\GitHub\App_prestamos_deportivos\Presentacion\Presentacion\obj\Debug\Presentacion.frm_implementos.resources
 C:\Users\bymad\Documents\GitHub\App_prestamos_deportivos\Presentacion\Presentacion\obj\Debug\Presentacion.frm_login.resources
 C:\Users\bymad\Documents\GitHub\App_prestamos_deportivos\Presentacion\Presentacion\obj\Debug\Presentacion.frm_prestamos.resources
+C:\Users\bymad\Documents\GitHub\App_prestamos_deportivos\Presentacion\Presentacion\bin\Debug\Negocio.dll
+C:\Users\bymad\Documents\GitHub\App_prestamos_deportivos\Presentacion\Presentacion\bin\Debug\Negocio.pdb

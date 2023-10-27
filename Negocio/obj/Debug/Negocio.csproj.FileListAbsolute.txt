@@ -1,0 +1,6 @@
+C:\Users\bymad\Documents\GitHub\App_prestamos_deportivos\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\bymad\Documents\GitHub\App_prestamos_deportivos\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\bymad\Documents\GitHub\App_prestamos_deportivos\Negocio\bin\Debug\Negocio.dll
+C:\Users\bymad\Documents\GitHub\App_prestamos_deportivos\Negocio\bin\Debug\Negocio.pdb
+C:\Users\bymad\Documents\GitHub\App_prestamos_deportivos\Negocio\obj\Debug\Negocio.dll
+C:\Users\bymad\Documents\GitHub\App_prestamos_deportivos\Negocio\obj\Debug\Negocio.pdb

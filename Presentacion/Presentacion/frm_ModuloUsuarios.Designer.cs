@@ -65,7 +65,7 @@
             this.txt_p_nombre.AnimateReadOnly = false;
             this.txt_p_nombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_p_nombre.Depth = 0;
-            this.txt_p_nombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_p_nombre.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_p_nombre.Hint = "Primer Nombre";
             this.txt_p_nombre.LeadingIcon = null;
             this.txt_p_nombre.Location = new System.Drawing.Point(249, 11);
@@ -84,7 +84,7 @@
             this.txt_s_nombre.AnimateReadOnly = false;
             this.txt_s_nombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_s_nombre.Depth = 0;
-            this.txt_s_nombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_s_nombre.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_s_nombre.Hint = "Segundo Nombre";
             this.txt_s_nombre.LeadingIcon = null;
             this.txt_s_nombre.Location = new System.Drawing.Point(499, 11);
@@ -103,7 +103,7 @@
             this.txt_p_apellido.AnimateReadOnly = false;
             this.txt_p_apellido.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_p_apellido.Depth = 0;
-            this.txt_p_apellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_p_apellido.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_p_apellido.Hint = "Primer Apellido";
             this.txt_p_apellido.LeadingIcon = null;
             this.txt_p_apellido.Location = new System.Drawing.Point(12, 83);
@@ -121,7 +121,7 @@
             this.materialTextBox1.AnimateReadOnly = false;
             this.materialTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.materialTextBox1.Depth = 0;
-            this.materialTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBox1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialTextBox1.Hint = "Segundo Apellido";
             this.materialTextBox1.LeadingIcon = null;
             this.materialTextBox1.Location = new System.Drawing.Point(249, 83);
@@ -139,7 +139,7 @@
             this.txt_contacto.AnimateReadOnly = false;
             this.txt_contacto.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_contacto.Depth = 0;
-            this.txt_contacto.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_contacto.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_contacto.Hint = "Contacto";
             this.txt_contacto.LeadingIcon = null;
             this.txt_contacto.Location = new System.Drawing.Point(499, 83);
@@ -157,7 +157,7 @@
             this.txt_correo.AnimateReadOnly = false;
             this.txt_correo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_correo.Depth = 0;
-            this.txt_correo.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_correo.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_correo.Hint = "Correo";
             this.txt_correo.LeadingIcon = null;
             this.txt_correo.Location = new System.Drawing.Point(12, 158);
@@ -179,7 +179,7 @@
             this.materialComboBox1.DropDownHeight = 174;
             this.materialComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.materialComboBox1.DropDownWidth = 121;
-            this.materialComboBox1.Font = new System.Drawing.Font("Roboto Medium", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialComboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.materialComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialComboBox1.FormattingEnabled = true;
             this.materialComboBox1.IntegralHeight = false;
@@ -200,7 +200,7 @@
             this.txt_direccion.AnimateReadOnly = false;
             this.txt_direccion.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_direccion.Depth = 0;
-            this.txt_direccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_direccion.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_direccion.Hint = "Dirección";
             this.txt_direccion.LeadingIcon = null;
             this.txt_direccion.Location = new System.Drawing.Point(12, 229);
@@ -288,7 +288,7 @@
             this.Controls.Add(this.txt_p_nombre);
             this.Controls.Add(this.txt_id);
             this.Name = "frm_ModuloUsuarios";
-            this.Text = "Form1";
+            this.Text = "USUARIOS";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -12,4 +12,4 @@ namespace Negocio
         public SqlConnection connection = new SqlConnection("Data Source=ERO-SENNIN\\SQLEXPRESS;Initial Catalog=dbs_prestamos_deportivos;Integrated Security=True");
     }
 }
-}
+

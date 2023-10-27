@@ -55,13 +55,14 @@
             this.txt_codigo.TabIndex = 0;
             this.txt_codigo.Text = "";
             this.txt_codigo.TrailingIcon = null;
+            this.txt_codigo.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txt_codigo_KeyUp);
             // 
             // txt_nombre
             // 
             this.txt_nombre.AnimateReadOnly = false;
             this.txt_nombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_nombre.Depth = 0;
-            this.txt_nombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_nombre.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_nombre.Hint = "Nombre";
             this.txt_nombre.LeadingIcon = null;
             this.txt_nombre.Location = new System.Drawing.Point(263, 13);
@@ -105,7 +106,7 @@
             this.txt_cantidad.AnimateReadOnly = false;
             this.txt_cantidad.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_cantidad.Depth = 0;
-            this.txt_cantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_cantidad.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_cantidad.Hint = "Cantidad";
             this.txt_cantidad.LeadingIcon = null;
             this.txt_cantidad.Location = new System.Drawing.Point(13, 211);
@@ -123,7 +124,7 @@
             this.txt_valor.AnimateReadOnly = false;
             this.txt_valor.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_valor.Depth = 0;
-            this.txt_valor.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_valor.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_valor.Hint = "Valor";
             this.txt_valor.LeadingIcon = null;
             this.txt_valor.Location = new System.Drawing.Point(263, 211);
@@ -173,6 +174,7 @@
             this.btn_guardar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.btn_guardar.UseAccentColor = false;
             this.btn_guardar.UseVisualStyleBackColor = true;
+            this.btn_guardar.Click += new System.EventHandler(this.btn_guardar_Click);
             // 
             // btn_cancelar
             // 
