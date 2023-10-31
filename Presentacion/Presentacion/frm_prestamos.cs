@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Negocio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,6 +30,22 @@ namespace Presentacion
             txt_observaciones.Clear();
             dtg_prestamo.DataSource = null;
             txt_id.Focus();
+        }
+
+        private void txt_id_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                cls_prestamos objConsultar = new cls_prestamos();
+                objConsultar.fnt_consultar(txt_id.Text);
+                txt_nombre.Text = objConsultar.getNombre();
+
+            }
+        }
+
+        private void txt_id_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -60,6 +60,8 @@
             this.txt_id.TabIndex = 0;
             this.txt_id.Text = "";
             this.txt_id.TrailingIcon = null;
+            this.txt_id.TextChanged += new System.EventHandler(this.txt_id_TextChanged);
+            this.txt_id.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txt_id_KeyUp);
             // 
             // txt_nombre
             // 
